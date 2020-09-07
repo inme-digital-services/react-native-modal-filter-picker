@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hiddentao/react-native-modal-filter-picker.git"
+    "url": "git+https://github.com/inme-digital-services/react-native-modal-filter-picker.git"
   },
   "keywords": [
     "react",
@@ -33,9 +33,9 @@
   "author": "Ramesh Nair <ram@hiddentao.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hiddentao/react-native-modal-filter-picker/issues"
+    "url": "https://github.com/inme-digital-services/react-native-modal-filter-picker/issues"
   },
-  "homepage": "https://github.com/hiddentao/react-native-modal-filter-picker#readme",
+  "homepage": "https://github.com/inme-digital-services/react-native-modal-filter-picker#readme",
   "dependencies": {},
   "devDependencies": {
     "eslint": "^4.16.0",
