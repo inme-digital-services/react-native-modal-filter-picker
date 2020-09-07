@@ -10,6 +10,7 @@ import {
   Platform,
   FlatList,
   ActivityIndicator,
+  SafeAreaView
 } from 'react-native';
 
 import styles from './styles';
@@ -154,11 +155,13 @@ export default class ModalFilterPicker extends Component {
           style={[styles.overlay, overlayStyle]}
           enabled={Platform.OS === 'ios'}
         >
+          <SafeAreaView style={{ flex: 1 }}>
           <View>{renderedTitle}</View>
           {(renderList || this.renderList)()}
           <View style={[styles.cancelContainer, cancelContainerStyle]}>
             {(renderCancelButton || this.renderCancelButton)()}
           </View>
+          </SafeAreaView>
         </KeyboardAvoidingView>
       </Modal>
     );
